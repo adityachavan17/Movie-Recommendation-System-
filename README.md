@@ -15,8 +15,12 @@ The **Movie Recommendation System** is a machine learning-based project that sug
 - **Machine Learning Libraries**: scikit-learn, pandas, numpy
 - **Web Framework**: Flask (for the web interface)
 - **Dataset**: MovieLens dataset
+- **API**: TMDb (The Movie Database) API
 
 ## Installation
+### Prerequisites
+Ensure you have Python installed on your system. You can download it from [Python's official website](https://www.python.org/).
+
 ### Steps to Install
 1. Clone the repository:
    ```bash
@@ -27,11 +31,17 @@ The **Movie Recommendation System** is a machine learning-based project that sug
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the application:
+3. Obtain an API key from TMDb:
+   - Go to [TMDb's official website](https://www.themoviedb.org/)
+   - Sign up or log in
+   - Navigate to the API section and generate your API key
+   - Add the API key to your project (e.g., in a `.env` file or as a variable in your script)
+
+4. Run the application:
    ```bash
-   python app.py
+   streamlit run app.py
    ```
-4. Open your browser and go to `http://127.0.0.1:5000/` to access the web interface.
+5. Open your browser and go to the provided Streamlit URL to access the web interface.
 
 ## Usage
 1. Open the web application in your browser.
@@ -40,6 +50,5 @@ The **Movie Recommendation System** is a machine learning-based project that sug
 
 ## Dataset
 The system uses the **MovieLens dataset**, which includes user ratings, genres, and movie metadata to provide accurate recommendations.
-
 
 
