@@ -1,7 +1,7 @@
 # Movie Recommendation System
 
 ## Overview
-The **Movie Recommendation System** is a machine learning-based project that suggests movies to users based on their preferences. It utilizes collaborative filtering and content-based filtering techniques to provide personalized movie recommendations.
+The **Movie Recommendation System** is a machine learning-based project that suggests movies to users based on their preferences. It utilizes content-based filtering technique to provide personalized movie recommendations.
 
 ## Features
 - Personalized movie recommendations
